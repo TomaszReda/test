@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public interface NurseRepository  extends JpaRepository<Nurse,Long> , QuerydslPredicateExecutor<Nurse> {
 
-
+    /* test*/
     @Query("Select nur from Nurse nur " +
             "left join nur.nurseAttributeList nal " +
             "where nur.nurseCategory= :nurseCAtegory")
