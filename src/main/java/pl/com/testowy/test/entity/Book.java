@@ -5,6 +5,7 @@ import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
 
 @Entity(name = "Book")
+/* test*/
 public class Book extends Publication {
 
     @Column
