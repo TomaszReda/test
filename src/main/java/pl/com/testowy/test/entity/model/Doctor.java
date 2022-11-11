@@ -14,7 +14,7 @@ import javax.persistence.Entity;
 @Getter
 @Setter
 @DiscriminatorValue( "doctor")
-/* test*/
+
 public class Doctor extends Person {
 
     private static final long serialVersionUID = 8967877132564409367L;

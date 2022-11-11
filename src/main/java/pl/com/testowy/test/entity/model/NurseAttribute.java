@@ -10,7 +10,6 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-/* test*/
 public class NurseAttribute extends EntityBase{
     private String atributeValue;
 }
