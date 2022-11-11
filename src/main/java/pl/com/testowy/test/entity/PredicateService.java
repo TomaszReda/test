@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 import pl.com.testowy.test.entity.model.QNurse;
 
 @Service
-/* test*/
 public class PredicateService {
 
     private static final QNurse q=QNurse.nurse;

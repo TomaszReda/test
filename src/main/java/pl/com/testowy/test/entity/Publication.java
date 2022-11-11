@@ -10,7 +10,6 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-/* test*/
 public abstract class Publication {
 
     @Id
